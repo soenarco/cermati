@@ -1,5 +1,5 @@
 # cermati
-Front End TEST From cermati.com 
+Front End TEST from cermati.com 
 
 This application was created using the Vue.js Framework namely Nuxt.js. You can read the documentation at https://nuxtjs.org/
 
