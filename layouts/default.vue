@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <!-- <Header /> -->
     <nuxt />
     <Footer />
   </div>
@@ -8,13 +8,13 @@
 
 <script>
 import bus from '~/plugins/bus';
-import Header from '~/components/layout/Header';
+// import Header from '~/components/layout/Header';
 import Footer from '~/components/layout/Footer';
 
 export default {
 
   components: {
-    Header,
+    // Header,
     Footer,
   },
 

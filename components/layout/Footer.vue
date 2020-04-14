@@ -1,12 +1,9 @@
 <template>
   <footer id="site-footer">
-    <!-- SUBSCRIBE -->
-    <Subscribe />
-
     <!-- COPYRIGHT -->
     <div class="section-footer-copyright">
       <div class="container">
-        <div class="row justify-content-center mt-4 mb-5">
+        <div class="row justify-content-center">
           &copy; {{ year }} Sunarko. All rights reserved.
         </div>
       </div>
@@ -16,13 +13,8 @@
 
 <script>
 import moment from 'moment';
-import Subscribe from '~/components/footer/Subscribe';
 
 export default {
-  components: {
-    Subscribe,
-  },
-
   asynData() {
     return {
       year: moment().format('YYYY'),
@@ -40,7 +32,8 @@ export default {
 <style lang="scss">
 #site-footer {
   z-index: 2;
-  background-color: white;
+  background-color: #004a75;
+  padding: 2%;
 
   .section-footer-sitemap {
     padding: 2% 20%;
